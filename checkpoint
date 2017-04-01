@@ -1,2 +1,2 @@
-model_checkpoint_path: "model.ckpt"
-all_model_checkpoint_paths: "model.ckpt"
+model_checkpoint_path: "/home/gk/gensim/notebooks/ANN.model"
+all_model_checkpoint_paths: "/home/gk/gensim/notebooks/ANN.model"
