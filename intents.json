@@ -1,11 +1,16 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
-         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"]
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
         },
         {"tag": "goodbye",
          "patterns": ["Bye", "See you later", "Goodbye"],
          "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
         {"tag": "hours",
          "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
