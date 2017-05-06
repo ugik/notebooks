@@ -1,0 +1,12 @@
+{"intents": [
+        {"tag": "greeting",
+         "responses": ["Hello", "Good to see you again", "Hi there!"]
+        },
+        {"tag": "goodbye",
+         "responses": ["See you later", "Have a nice day", "Bye!"]
+        },
+        {"tag": "sandwich",
+         "responses": ["Happy to make a sandwich", "Sure thing", "Coming right up!"]
+        }
+   ]
+}
