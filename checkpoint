@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/gk/gensim/notebooks/ANN.model"
-all_model_checkpoint_paths: "/home/gk/gensim/notebooks/ANN.model"
+model_checkpoint_path: "/home/gk/gensim/notebooks/model.tflearn"
+all_model_checkpoint_paths: "/home/gk/gensim/notebooks/model.tflearn"
