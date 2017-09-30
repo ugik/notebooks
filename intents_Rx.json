@@ -1,0 +1,31 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "med",
+         "patterns": ["I'm looking for cheap meds", "want to find a deal", "where are the cheapest meds", "where can I buy meds for less money" ],
+         "responses": ["What's the name of the medication?"],
+         "context": "getRx"
+        },
+        {"tag": "handleRx",
+         "patterns": [],
+         "responses": [],
+         "context": "handleRx"
+        },
+        {"tag": "coupon",
+         "patterns": ["what is the coupon", "send me the coupon"],
+         "responses": ["Sorry, no coupon", "No coupon available"],
+         "context": "coupon"
+        }
+   ]
+}
+

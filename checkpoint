@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/gk/gensim/notebooks/model.tflearn"
-all_model_checkpoint_paths: "/home/gk/gensim/notebooks/model.tflearn"
+model_checkpoint_path: "/home/gk/gensim/notebooks/Rxmodel.tflearn"
+all_model_checkpoint_paths: "/home/gk/gensim/notebooks/Rxmodel.tflearn"
